@@ -23,7 +23,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootswatch.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/min/wow.min.js"></script>
 </head>
 
 <body>
@@ -152,17 +154,17 @@
                 <div id="af-body-1507876577"  class="af-body af-standards">
                     <div class="af-element col-md-5 padding-10">
                         <div class="form-group-lg af-textWrap">
-                            <input id="awf_field-73219942" type="text" name="name" class="form-control text" value=""  onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " placeholder="Name" tabindex="500" />
+                            <input id="awf_field-73219942" type="text" name="name" class="form-control text" value=""  onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " placeholder="What is your name?" tabindex="500" />
                         </div>
                     </div>
                     <div class="af-element col-md-5 padding-10">
                         <div class="form-group-lg af-textWrap">
-                            <input class="form-control text" id="awf_field-73219943" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " placeholder="Email" />
+                            <input class="form-control text" id="awf_field-73219943" type="text" name="email" value="" tabindex="501" onfocus=" if (this.value == '') { this.value = ''; }" onblur="if (this.value == '') { this.value='';} " placeholder="Enter your email" />
                         </div><div class="af-clear"></div>
                     </div>
                     <div class="af-element buttonContainer col-md-2 padding-10">
                         <div class="form-group-lg">
-                            <input type="submit" id="af-submit-image-1507876577" class="btn btn-lg btn-block btn-responsive btn-primary submit" value="SUBSCRIBE">
+                            <input type="submit" id="af-submit-image-1507876577" class="btn btn-lg btn-block btn-responsive btn-primary submit" value="Sign Up">
                             <div class="af-clear"></div>
                         </div>
                     </div>
@@ -174,9 +176,9 @@
     </div>
 
     <!-- What can FAR do for you? -->
-    <section class="p-voffset-top30 p-voffset-bot30 hidden-xs">
+    <div class="p-voffset-top30 p-voffset-bot30 hidden-xs wow FadeIn">
       <img src="img/what-can.png" class="img-responsive text-centre" />
-    </section>
+    </div>
 
     <section class="p-voffset-top30 p-voffset-bot30 visible-xs">
       <img src="img/what-can-small.png" class="img-responsive text-centre" />
@@ -203,16 +205,18 @@
     </div>
     
     <!-- Footer -->
-    <div class="container p-voffset-top30">
+    <div class="container-fluid p-voffset-top30 p-voffset-bot30 bg-dark">
         <footer>
-            <div class="col-md-2">
-              <p>&copy; 2015</p>
-            </div>
-            <div class="col-md-6">
-              Tel : 03-2630 5543 | HP: Hana 011-150 888 75 / Azlan 012-268 6473 <br /> Email: <a href="mailto:enquiry@farcapital.com.my">enquiry@farcapital.com.my</a>
-            </div>
-            <div class="col-md-4">
-              <p>FAR Capital Sdn Bhd, B2-2-2, Solaris Dutamas, 1, Jalan Dutamas 1, 50480, Kuala Lumpur</p>
+            <div class="row container centre">
+                <div class="col-md-2">
+                  <p>&copy; 2015</p>
+                </div>
+                <div class="col-md-6">
+                  <p>Tel : 03-2630 5543 | HP: Hana 011-150 888 75 / Azlan 012-268 6473 <br /> Email: <a href="mailto:enquiry@farcapital.com.my">enquiry@farcapital.com.my</a></p>
+                </div>
+                <div class="col-md-4">
+                  <p>FAR Capital Sdn Bhd, B2-2-2, Solaris Dutamas, 1, Jalan Dutamas 1, 50480, Kuala Lumpur</p>
+                </div>
             </div>
         </footer>
     </div>
@@ -241,7 +245,9 @@
     ga('send', 'pageview');
     </script>
   
- 
+    <script>
+     new WOW().init();
+    </script>
 
 </body>
 

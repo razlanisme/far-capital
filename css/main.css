@@ -25,7 +25,8 @@ p {
 }
 
 footer p {
-	color: #ffffff;
+	font-size: 0.8em;
+	color: #999999;
 }
 
 a {
@@ -37,6 +38,9 @@ a:hover {
 	text-decoration: none;
 }
 
+.white-text p {
+	color: #ffffff;
+}
 
 .page-header {
 	border: none;
@@ -44,9 +48,48 @@ a:hover {
 
 /* === alignments === */
 
+.centre {
+	margin: 0 auto;
+}
+
 .text-centre {
 	text-align: center;
 	margin: 0 auto;
+}
+
+/* === 5 column hack === */
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
 }
 
 

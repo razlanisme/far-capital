@@ -1,0 +1,231 @@
+body {
+	height: 100%;
+	padding-top: 0px;
+	line-height: 1.5em;
+}
+
+html {
+	height: 100%;
+}
+
+h1, h2 {
+	font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	line-height: 1.5em;
+}
+
+input {
+	border-radius: 12px !important;
+}
+
+p {
+	color: #999999;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+a {
+	color: #2E8AE6;
+}
+
+a:hover {
+	color: #6DADEE;
+	text-decoration: none;
+}
+
+
+.page-header {
+	border: none;
+}
+
+/* === alignments === */
+
+.text-centre {
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/* === padding offsets === */
+
+.p-voffset-top10 {padding-top: 10px;}
+.p-voffset-top30 {padding-top: 30px;}
+.p-voffset-top50 {padding-top: 50px;}
+.p-voffset-top70 {padding-top: 70px;}
+.p-voffset-top90 {padding-top: 90px;}
+
+.p-voffset-bot10 {padding-bottom: 10px;}
+.p-voffset-bot30 {padding-bottom: 30px;}
+.p-voffset-bot50 {padding-bottom: 50px;}
+.p-voffset-bot70 {padding-bottom: 70px;}
+.p-voffset-bot90 {padding-bottom: 90px;}
+
+.padding-10 {
+	padding: 10px;
+}
+
+/* === navbar === */
+
+.navbar-inverse {
+	background-image: none;
+	background-color: rgba(43, 62, 80, 0.7);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > .active > a {
+	background-color: #1F1F2E;
+	border-radius: 12px;
+}
+
+.navbar {
+	font-size: 15px;
+}
+
+/* === backgrounds === */
+
+.bg-dark {
+	background-color: #1F1F2E;
+}
+
+.bg-semi-dark {
+	background-color: #223242;
+}
+
+/* === carousel hack === */
+
+.carousel-1 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/housing.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-2 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/writing-notes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-3 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-4 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-5 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-6 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-7 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-8 {
+	background-image: linear-gradient(to bottom, rgba(10, 41, 69, 1) 0%, rgba(19, 72, 153, 0.9) 100%), url(../img/pavements.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+	top: 25%;
+}
+
+.carousel .item {
+    width: 100%;
+    min-height: 500px;
+}
+
+
+#carousel-testimonial .carousel-inner {
+	height: 350px;
+	top: -30px;
+}
+
+
+.carousel .carousel-control {
+    background: none !important;
+    border: none;
+}
+
+/* Fade transition for carousel items */
+.carousel-fade .carousel-inner .item {
+  opacity: 0.5;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 768px) {
+	.carousel .item {
+		height: 100%;
+	}
+
+	.carousel-caption {
+		display: inline-block;
+    	vertical-align: middle;
+    	float: none;
+	}
+
+	.carousel-caption > h1 {
+		font-size: 1.3em	;
+	}
+
+	.carousel-caption > h3 {
+		font-size: 1em	;
+	}
+}
+
+/* === buttons === */
+
+.btn-primary {
+	background-color: #2E8AE6;
+}
+
+.btn-primary:hover {
+	background-color: #6DADEE;
+}
+
+
